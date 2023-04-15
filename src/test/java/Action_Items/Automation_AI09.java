@@ -19,7 +19,6 @@ public class Automation_AI09 extends ReusableAnnotations {
         ReusableMethods_Logger.getScreenshot(driver, "Todays Deals", logger);
     }//end of test 1
 
-//testdaesdawderegrsegrs
     //search for webcam, click on first image, and capture price
     @Test(priority = 2)
     public void captureWebcamPrice() throws InterruptedException {
